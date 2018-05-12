@@ -347,6 +347,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="World Cup Mayhem.csproj">
+      <Project>{93410367-C5D7-87B5-A7F0-07624AB9245D}</Project>
+      <Name>World Cup Mayhem</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="C:\Users\matt__000\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.13\Editor\Importer.cs" />
   </ItemGroup>
   <ItemGroup>

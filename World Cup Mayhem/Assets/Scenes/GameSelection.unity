@@ -360,14 +360,14 @@ RectTransform:
   m_GameObject: {fileID: 81940731}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.42599002, y: 0.42599005, z: 0.42599005}
+  m_LocalScale: {x: 0.43739563, y: 0.43739572, z: 0.43739572}
   m_Children: []
-  m_Father: {fileID: 1676051722}
-  m_RootOrder: 3
+  m_Father: {fileID: 273763382}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.9, y: -100.5}
+  m_AnchoredPosition: {x: 1.9508729, y: -69.676926}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &81940733
@@ -402,7 +402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 1 / 33
+  m_Text: 1 / 46
 --- !u!222 &81940734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -585,9 +585,13 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.97392374, y: 0.9739237, z: 0.9739237}
-  m_Children: []
+  m_Children:
+  - {fileID: 1086829938}
+  - {fileID: 81940732}
+  - {fileID: 1509782665}
+  - {fileID: 885692385}
   m_Father: {fileID: 1676051722}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1102,6 +1106,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_soccerBallImage: {fileID: 273763383}
+  m_soccerBallText: {fileID: 1086829939}
+  m_soccerBallNumber: {fileID: 81940733}
+  m_soccerBallNames:
+  - Default Ball 1
+  - Default Ball 2
+  - Default Ball 3
+  - Argentina
+  - Australia
+  - Belgium
+  - Brazil
+  - Colombia
+  - Costa Rica
+  - Croatia
+  - Denmark
+  - Egypt
+  - England
+  - France
+  - Germany
+  - Iceland
+  - Iran
+  - Japan
+  - Korea Republic
+  - Mexico
+  - Morocco
+  - Nigeria
+  - Panama
+  - Peru
+  - Poland
+  - Portugal
+  - Russia
+  - Saudi Arabia
+  - Senegal
+  - Serbia
+  - Spain
+  - Sweden
+  - Switzerland
+  - Tunisia
+  - Uruguay
+  - Canada
+  - USA
+  - Chocolate Chip
+  - Earth
+  - Firefox
+  - Google Chrome
+  - Heart
+  - Microsoft Paint
+  - Olympic Rings
+  - Pikachu
+  - Tron
   m_soccerBallList:
   - {fileID: 21300000, guid: 9d0accbfeb1bf34488c5ef9898e549d4, type: 3}
   - {fileID: 21300000, guid: eb8ba13b5ef39464bb5c1431bd1b8291, type: 3}
@@ -1149,6 +1202,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 4053d34107dd8304c9731eb4a7276b08, type: 3}
   - {fileID: 21300000, guid: c91b09b63d016984e9e75ba7f35a8dcf, type: 3}
   - {fileID: 21300000, guid: 8b85ed79895c98a4297b2527192516c0, type: 3}
+  m_index: 0
 --- !u!1 &877879204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,7 +1234,7 @@ RectTransform:
   m_Children:
   - {fileID: 259619033}
   m_Father: {fileID: 1676051722}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1310,14 +1364,14 @@ RectTransform:
   m_GameObject: {fileID: 885692384}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69405997, y: 0.69406, z: 0.69406}
+  m_LocalScale: {x: 0.712643, y: 0.71264315, z: 0.71264315}
   m_Children: []
-  m_Father: {fileID: 1676051722}
-  m_RootOrder: 5
+  m_Father: {fileID: 273763382}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114.49783, y: -35.963737}
+  m_AnchoredPosition: {x: -108.52783, y: -3.4127374}
   m_SizeDelta: {x: 160, y: 150.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885692386
@@ -1430,14 +1484,14 @@ RectTransform:
   m_GameObject: {fileID: 1086829937}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.42598554, y: 0.4259856, z: 0.4259856}
+  m_LocalScale: {x: 0.43739104, y: 0.43739116, z: 0.43739116}
   m_Children: []
-  m_Father: {fileID: 1676051722}
-  m_RootOrder: 1
+  m_Father: {fileID: 273763382}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.550011, y: 38.86001}
+  m_AnchoredPosition: {x: -0.7700886, y: 73.414375}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086829939
@@ -1945,14 +1999,14 @@ RectTransform:
   m_GameObject: {fileID: 1509782664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.74264926, y: 0.7426494, z: 0.7426494}
+  m_LocalScale: {x: 0.76253325, y: 0.7625335, z: 0.7625335}
   m_Children: []
-  m_Father: {fileID: 1676051722}
-  m_RootOrder: 4
+  m_Father: {fileID: 273763382}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 92.33345, y: -43.653694}
+  m_AnchoredPosition: {x: 103.84124, y: -11.308589}
   m_SizeDelta: {x: 160, y: 162.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509782666
@@ -2068,11 +2122,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 266344664}
-  - {fileID: 1086829938}
   - {fileID: 273763382}
-  - {fileID: 81940732}
-  - {fileID: 1509782665}
-  - {fileID: 885692385}
   - {fileID: 1931709759}
   - {fileID: 877879205}
   m_Father: {fileID: 1398280627}
@@ -2147,7 +2197,7 @@ RectTransform:
   m_Children:
   - {fileID: 2059342651}
   m_Father: {fileID: 1676051722}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

@@ -300,6 +300,7 @@
     <Compile Include="Assets\Scripts\Misc\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\Misc\CharacterSelection.cs" />
     <Compile Include="Assets\Scripts\Misc\PowerUpScript.cs" />
+    <Compile Include="Assets\Scripts\Player\Drag.cs" />
     <Compile Include="Assets\Scripts\Player\GoalieScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
   </ItemGroup>

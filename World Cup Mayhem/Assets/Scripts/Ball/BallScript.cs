@@ -6,8 +6,8 @@ public class BallScript : MonoBehaviour
 {
 
     // using the dimensions of the edges of the camera to give a spawn for the ball
-    private float m_topOfCamera = 5.0f;
-    private float m_bottomOfCamera = -5.5f;
+    private float m_topOfCamera = 8.0f;
+    private float m_bottomOfCamera = -8.0f;
     private float m_rightOfCamera = 2.7f;
     private float m_leftOfCamera = -2.7f;
 

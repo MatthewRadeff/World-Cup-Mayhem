@@ -383,7 +383,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 437138132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.8110008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -510,7 +510,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 2.8110008, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1369696459}
@@ -720,7 +720,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.9040263}
+  m_Offset: {x: 0.21726355, y: 1.904026}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -731,7 +731,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 15.089783}
+  m_Size: {x: 1.4345269, y: 15.089783}
   m_EdgeRadius: 0
 --- !u!1 &683282858
 GameObject:
@@ -960,7 +960,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_soccerBallImage: {fileID: 0}
-  m_soccerBallSprite: {fileID: 0}
+  m_soccerBallText: {fileID: 0}
+  m_soccerBallNumber: {fileID: 0}
+  m_soccerBallNames: []
   m_soccerBallList:
   - {fileID: 21300000, guid: 9d0accbfeb1bf34488c5ef9898e549d4, type: 3}
   - {fileID: 21300000, guid: eb8ba13b5ef39464bb5c1431bd1b8291, type: 3}
@@ -1050,7 +1052,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.9040263}
+  m_Offset: {x: -0.21275094, y: 1.904026}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1061,7 +1063,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 15.089783}
+  m_Size: {x: 1.4255018, y: 15.089783}
   m_EdgeRadius: 0
 --- !u!1 &1099137296
 GameObject:
@@ -1090,15 +1092,15 @@ RectTransform:
   m_GameObject: {fileID: 1099137296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0150295, y: 1.0150295, z: 1.0150295}
+  m_LocalScale: {x: 2.6859007, y: 2.6859007, z: 2.6859007}
   m_Children: []
   m_Father: {fileID: 893370350}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 32.7, y: 35.8}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: 75.4, y: 79.2}
+  m_SizeDelta: {x: 55, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099137298
 MonoBehaviour:
@@ -1772,10 +1774,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1582594822}
   - component: {fileID: 1582594816}
-  - component: {fileID: 1582594818}
-  - component: {fileID: 1582594819}
   - component: {fileID: 1582594821}
   - component: {fileID: 1582594820}
+  - component: {fileID: 1582594817}
   m_Layer: 0
   m_Name: Soccer_Goalie
   m_TagString: Untagged
@@ -1828,51 +1829,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!61 &1582594818
-BoxCollider2D:
+--- !u!65 &1582594817
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1582594815}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.21110332, y: -2.2999086}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6, y: 6}
-    newSize: {x: 6, y: 6}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.347729, y: 6.1142225}
-  m_EdgeRadius: 0
---- !u!50 &1582594819
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1582594815}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Size: {x: 2.3608267, y: 1.7795705, z: 0.2}
+  m_Center: {x: -0.20217392, y: -0.13899325, z: 0}
 --- !u!114 &1582594820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1912,20 +1880,20 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1582594815}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 0.39242107, y: 0.39242107, z: 0.39242107}
+  m_LocalScale: {x: 0.3924211, y: 0.3924211, z: 0.39242107}
   m_Children:
   - {fileID: 1547776402}
   - {fileID: 1339907013}
   - {fileID: 683282859}
   - {fileID: 1238782598}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.065, y: -2.86}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1602297686
@@ -1969,7 +1937,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.9487438, y: -0.042438984}
+  m_Offset: {x: 0.9487438, y: 0.56979895}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1980,8 +1948,54 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.22278, y: 0.91512203}
+  m_Size: {x: 12.22278, y: 2.1395974}
   m_EdgeRadius: 0
+--- !u!1 &1785794937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1785794939}
+  - component: {fileID: 1785794938}
+  m_Layer: 0
+  m_Name: TouchManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1785794938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785794937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f61f6fd3a00204bac55e17c18e9846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_player: {fileID: 1582594815}
+  m_goCenter: {x: 0, y: 0, z: 0}
+  m_touchPosition: {x: 0, y: 0, z: 0}
+  m_offset: {x: 0, y: 0, z: 0}
+  m_newGOCenter: {x: 0, y: 0, z: 0}
+  m_dragging: 0
+--- !u!4 &1785794939
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785794937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1853732446
 GameObject:
   m_ObjectHideFlags: 0
@@ -2053,8 +2067,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1853732446}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.030000001, y: 4.229, z: 5}
-  m_LocalScale: {x: 0.14809838, y: 0.14809838, z: 0.14809838}
+  m_LocalPosition: {x: 0.030000001, y: 7, z: 5}
+  m_LocalScale: {x: 0.14809836, y: 0.14809836, z: 0.14809836}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

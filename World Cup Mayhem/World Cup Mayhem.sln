@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Cup Mayhem", "World Cup Mayhem.csproj", "{93410367-C5D7-87B5-A7F0-07624AB9245D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Cup Mayhem.Editor", "World Cup Mayhem.Editor.csproj", "{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "World Cup Mayhem.Editor", "World Cup Mayhem.Editor.csproj", "{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}"
 EndProject
@@ -21,11 +21,12 @@ Global
 		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEE84EE-B7EB-BE94-F4A5-5E3940048F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B77D40D3-C9A0-4397-B89D-2F26CBDB7A3A}
 	EndGlobalSection
 EndGlobal

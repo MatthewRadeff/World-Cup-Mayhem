@@ -7,6 +7,12 @@ TagManager:
   - Barrier
   - Bottom
   - Goalie
+  - Ball
+  - Left
+  - Right
+  - YellowCard
+  - RedCard
+  - destroy
   layers:
   - Default
   - TransparentFX

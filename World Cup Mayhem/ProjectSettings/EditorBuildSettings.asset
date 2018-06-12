@@ -12,9 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/GameSelection.unity
     guid: 23518adc553074d4f8d0d27662d2f273
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/GameOverGoals.unity
     guid: 1446df26d64dd7e44969dc75e18a569b
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: e217be6ab40f2f142a5c7e6c1ff756d5
+  - enabled: 1
+    path: Assets/Scenes/GameOverRedCard.unity
+    guid: 9de915fa77a70f24787cc515dda3501a
+  - enabled: 1
+    path: Assets/Scenes/GameOverYellowCard.unity
+    guid: 29ef7c9974b1cdf4c8f16a71029df2bf
   m_configObjects: {}

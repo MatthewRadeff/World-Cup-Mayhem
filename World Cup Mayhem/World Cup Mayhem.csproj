@@ -297,11 +297,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball\BallScript.cs" />
+    <Compile Include="Assets\Scripts\Misc\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Misc\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\Misc\CardDestroy.cs" />
     <Compile Include="Assets\Scripts\Misc\CardSpawner.cs" />
     <Compile Include="Assets\Scripts\Misc\CharacterSelection.cs" />
+    <Compile Include="Assets\Scripts\Misc\MusicScript.cs" />
     <Compile Include="Assets\Scripts\Misc\PowerUpScript.cs" />
+    <Compile Include="Assets\Scripts\Misc\Sound.cs" />
     <Compile Include="Assets\Scripts\Misc\YRCard.cs" />
     <Compile Include="Assets\Scripts\Player\Drag.cs" />
   </ItemGroup>

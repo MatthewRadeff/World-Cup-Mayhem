@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class BallScript : MonoBehaviour
 {
@@ -39,6 +40,11 @@ public class BallScript : MonoBehaviour
     public Text m_goalsAllowed;
     public int m_goalsAllowedCount;
 
+
+    //public AudioClip m_saveClip;
+
+    //public AudioClip m_goalClip;
+    //public AudioClip m_bounceClip;
 
     // Use this for initialization
     void Start ()
@@ -99,8 +105,11 @@ public class BallScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Bottom") || other.gameObject.CompareTag("Barrier"))
+        if(other.gameObject.CompareTag("Bottom"))
         {
+            //AudioSource.PlayClipAtPoint(m_goalClip,transform.position,100.0f);
+            FindObjectOfType<AudioManager>().Play("Goal");
+
             // adding to the goals allowed
             m_goalsAllowedCount++;
             m_goalsAllowed.text = m_goalsAllowedCount + " / 5";
@@ -111,10 +120,29 @@ public class BallScript : MonoBehaviour
             m_ballRB.transform.position = new Vector2(m_xcoord, m_topOfCamera);
             m_ballRB.velocity = new Vector3(0, 0, 0);
 
+
+        }
+        if(other.gameObject.CompareTag("Barrier"))
+        {
+            // adding to the goals allowed
+            m_goalsAllowedCount++;
+            m_goalsAllowed.text = m_goalsAllowedCount + " / 5";
+
+
+            // spawning ball back at the top when it scores..or glitches out and hits the barrier
+            m_xcoord = Random.Range(m_leftOfCamera, m_rightOfCamera);
+            m_ballRB.transform.position = new Vector2(m_xcoord, m_topOfCamera);
+            m_ballRB.velocity = new Vector3(0, 0, 0);
+        }
+        if(other.gameObject.CompareTag("Wall"))
+        {
+            //AudioSource.PlayClipAtPoint(m_bounceClip, transform.position, 100.0f);
+            FindObjectOfType<AudioManager>().Play("Wall");
         }
         if (other.gameObject.CompareTag("Goalie"))
         {
-
+            //AudioSource.PlayClipAtPoint(m_saveClip, transform.position, 100.0f);
+            FindObjectOfType<AudioManager>().Play("Save");
             m_currentSaves++;
             m_currentSavesText.text = "Saves: " + m_currentSaves;
 

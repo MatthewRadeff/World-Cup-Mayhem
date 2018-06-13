@@ -41,6 +41,7 @@ public class PowerUpScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("YellowCard"))
         {
+            FindObjectOfType<AudioManager>().Play("Card");
             m_yellowCardCounter++;
             //Debug.Log(m_yellowCardCounter);
             Destroy(other.gameObject);
@@ -57,6 +58,7 @@ public class PowerUpScript : MonoBehaviour
         }
         if(other.gameObject.CompareTag("RedCard"))
         {
+            FindObjectOfType<AudioManager>().Play("Card");
             Destroy(other.gameObject);
             SceneManager.LoadScene("GameOverRedCard");
         }

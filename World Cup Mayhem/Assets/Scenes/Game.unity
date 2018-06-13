@@ -113,6 +113,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &699717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 699719}
+  - component: {fileID: 699718}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &699718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc48a5c07424294dbe1ea070d68b24a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Goal
+    clip: {fileID: 8300000, guid: b0c7552d5d17ff04aa6a9585e359796a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Save
+    clip: {fileID: 8300000, guid: d5707418bba0ac740b0e483fefa86873, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Wall
+    clip: {fileID: 8300000, guid: 7d9ffab540fac6d4aab54f20968323ac, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Card
+    clip: {fileID: 8300000, guid: b10a1278835e311478f510feaad1aa38, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+--- !u!4 &699719
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61822236, y: -0.4241727, z: 4.9688935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &14051305
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +740,7 @@ GameObject:
   - component: {fileID: 451736899}
   m_Layer: 0
   m_Name: top
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -969,7 +1030,7 @@ GameObject:
   - component: {fileID: 645233054}
   m_Layer: 0
   m_Name: left_Side
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1300,6 +1361,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c91b09b63d016984e9e75ba7f35a8dcf, type: 3}
   - {fileID: 21300000, guid: 678a4f3442e44d949a5d8b75bee0f1c9, type: 3}
   - {fileID: 21300000, guid: fcf3d1547c3295f4a85006d05dbdf45d, type: 3}
+  - {fileID: 21300000, guid: 4dea2ebe742288b479bb9c1fd9c4b984, type: 3}
   m_index: 0
 --- !u!1 &987039589
 GameObject:
@@ -1365,7 +1427,7 @@ GameObject:
   - component: {fileID: 1003466658}
   m_Layer: 0
   m_Name: right_side
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

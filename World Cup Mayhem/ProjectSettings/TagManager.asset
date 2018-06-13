@@ -13,6 +13,8 @@ TagManager:
   - YellowCard
   - RedCard
   - destroy
+  - Music
+  - Wall
   layers:
   - Default
   - TransparentFX

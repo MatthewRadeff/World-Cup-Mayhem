@@ -402,7 +402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 1 / 48
+  m_Text: 1 / 49
 --- !u!222 &81940734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1157,6 +1157,7 @@ MonoBehaviour:
   - Pikachu
   - Pokeball
   - Fallout76
+  - Incredibles 2
   m_soccerBallList:
   - {fileID: 21300000, guid: 9d0accbfeb1bf34488c5ef9898e549d4, type: 3}
   - {fileID: 21300000, guid: eb8ba13b5ef39464bb5c1431bd1b8291, type: 3}
@@ -1206,6 +1207,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c91b09b63d016984e9e75ba7f35a8dcf, type: 3}
   - {fileID: 21300000, guid: 678a4f3442e44d949a5d8b75bee0f1c9, type: 3}
   - {fileID: 21300000, guid: fcf3d1547c3295f4a85006d05dbdf45d, type: 3}
+  - {fileID: 21300000, guid: 4dea2ebe742288b479bb9c1fd9c4b984, type: 3}
   m_index: 0
 --- !u!1 &877879204
 GameObject:

@@ -10,7 +10,7 @@ public class YRCard : MonoBehaviour
 
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("YellowCard") || other.gameObject.CompareTag("RedCard"))
         {

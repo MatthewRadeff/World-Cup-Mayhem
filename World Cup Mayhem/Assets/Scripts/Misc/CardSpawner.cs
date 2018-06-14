@@ -28,18 +28,12 @@ public class CardSpawner : MonoBehaviour
     {
         m_redCardCount = 0;
         m_yellowCardCount = 0;
-        //StartCoroutine(SpawnYellowCard());
-        //StartCoroutine(SpawnRedCard());
+        
         StartCoroutine(SpawnRYCards());
 
     }
 	
-	// Update is called once per frame
-	void Update ()
-    {
-       //m_ycSpawnSeconds = Random.Range(20, 40);
-       //m_rcSpawnSeconds = Random.Range(40, 60);
-    }
+
 
 
     private IEnumerator SpawnRYCards()
@@ -73,8 +67,8 @@ public class CardSpawner : MonoBehaviour
             {
                 GameObject ycard = Instantiate(this.m_yellowCardPrefab) as GameObject;
                 m_xcoord = Random.Range(m_leftOfCamera, m_rightOfCamera);
-                ycard.GetComponent<Rigidbody>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
-                ycard.GetComponent<BoxCollider>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
+                ycard.GetComponent<Rigidbody2D>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
+                ycard.GetComponent<BoxCollider2D>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
                 m_yellowCardCount++;  
             }
             else
@@ -103,8 +97,8 @@ public class CardSpawner : MonoBehaviour
             {
                 GameObject rcard = Instantiate(this.m_redCardPrefab) as GameObject;
                 m_xcoord = Random.Range(m_leftOfCamera, m_rightOfCamera);
-                rcard.GetComponent<Rigidbody>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
-                rcard.GetComponent<BoxCollider>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
+                rcard.GetComponent<Rigidbody2D>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
+                rcard.GetComponent<BoxCollider2D>().transform.position = new Vector3(m_xcoord, m_topOfCamera, 5.0f);
                 m_redCardCount++;
             }
             else
